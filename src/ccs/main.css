@@ -10,7 +10,6 @@
     height: 100%;
 }
 
-
 .dosis-uniquifier {
      font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
@@ -156,7 +155,7 @@
 
 .main{
     width: 100%;
-    height: 320vh;
+    height: 535vh;
 }
 
 .Title1part{
@@ -294,6 +293,7 @@
     border: solid rgb(235, 232, 232) 2px;
     border-radius: 5px; 
     transition: 0.5s all;
+    cursor: pointer;
 }
 .part2shape1:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -308,6 +308,7 @@
     border: solid rgb(235, 232, 232) 2px;
     border-radius: 5px; 
     transition: 0.5s all;
+    cursor: pointer;
 }
 .part2shape2:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -322,6 +323,7 @@
     border: solid rgb(235, 232, 232) 2px;
     border-radius: 5px; 
     transition: 0.5s all;
+    cursor: pointer;
 }
 .part2shape3:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -336,6 +338,7 @@
     border: solid rgb(235, 232, 232) 2px;
     border-radius: 5px; 
     transition: 0.5s all;
+    cursor: pointer;
 }
 .part2shape4:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -350,6 +353,7 @@
     border: solid rgb(235, 232, 232) 2px;
     border-radius: 5px; 
     transition: 0.5s all;
+    cursor: pointer;
 }
 .part2shape5:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -364,6 +368,7 @@
     border: solid rgb(235, 232, 232) 2px;
     border-radius: 5px; 
     transition: 0.5s all;
+    cursor: pointer;
 }
 .part2shape6:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -418,21 +423,119 @@
     font-size: 18px;
     cursor: pointer;
 }
-
-
-
-
-
+.icon1{
+    margin: 0 25px 0 10px;
+}
+.icon2{
+    margin: 5px 25px 0 10px;
+}
+.icon3{
+    margin: 5px 25px 0 10px;
+}
+.part3{
+    width: 100%;
+    height: 75vh;
+    letter-spacing: 1px;
+    margin: 20px 0 20px 0;
+    padding: 30px 0 20px 0;
+    background-color: #ffe521;
+}
+.part3title > p{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 25px 0;
+}
+.buytickets{
+    display: flex;
+    justify-content: center;
+}
+.buytic1{
+    margin: 25px 50px 0 0;
+    text-align: center;
+}
+.buytic2{
+    margin: 25px 0 0 50px;
+    text-align: center;
+}
+.title1buy{
+    margin: 5px 0 20px 0;
+    font-size: 25px;
+}
+.title2buy{
+    margin: 5px 0 20px 0;
+    font-size: 25px;
+}
+.price1{
+    font-size: 55px;
+    color: #dd5138;;
+}
+.price2{
+    font-size: 55px;
+    color: #dd5138;;
+}
+.buyticdes1{
+    margin: 25px 0 20px 0;
+    font-size: 18px;
+}
+.buyticdes2{
+    margin: 25px 0 20px 0;
+    font-size: 18px;
+}
+.btntic > button{
+    margin: 10px 0 0 0;
+    width: 80%;
+    padding: 15px 0;
+    background-color: #dd5138;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.btntic > button:hover{
+    color: black;
+    transition: 0.5s all;
+}
+.btntic2 > button{
+    margin: 10px 0 0 0;
+    width: 90%;
+    padding: 15px 0;
+    background-color: #dd5138;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.btntic2 > button:hover{
+    color: black;
+    transition: 0.5s all;
+}
+.part4{
+    width: 100%;
+    height: 140vh;
+    letter-spacing: 1px;
+    margin: 20px 0 20px 0;
+    padding: 30px 0 20px 0;
+}
+.titlepart4 > p{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 15px 0;
+}
 .footer{
     color: white;
     width: 100%;
     /* height: 500px; */
     background-color: rgb(78, 78, 78);
     margin-top: 20px;
+    height: 100vh;
        
 }
 .inputi{
-    margin: 25px;
+    margin: 25px 0 0 0;
     padding: 25px;
 }
 .foot2{
@@ -451,7 +554,7 @@
     padding-top: 30px;
 }
 .foo1{
-    width: 50%;
+    width: 45%;
     height: 100%;
 }
 .il{
@@ -471,13 +574,17 @@
     border-color: red;
     
 }
+.inputi{
+    cursor: pointer;
+}
 
 .il3{
     margin: 15px 0;
 }
 .nameI{
-    width: 80%;
+    width: 82%;
     transition: 0.5s all;
+    margin: 0 0 20px 10px;
 }
 .nameI:hover{
     outline: blue;
@@ -485,8 +592,9 @@
     border: solid blue;
 }
 .EmailI{
-    width: 80%;
+    width: 83%;
     transition: 0.5s all;
+    margin: 0 0 10px 10px;
 }
 .EmailI:hover{
     outline: blue;
@@ -495,7 +603,8 @@
 }
 .messageI{
     height: 160px;
-    width: 90%;
+    width: 95%;
+    margin: 10px 0 10px 5px;
     font-size: 30px; 
     transition: 0.5s all;
 }
@@ -503,6 +612,110 @@
     outline: blue;
     transition: 0.5s all;
     border: solid blue;
+}
+.btnfooter{
+    display: flex;
+    justify-content: end;
+}
+.btnfooter > button{
+    margin: 0 40px 40px 0;
+    width: 20%;
+    background-color: yellow;
+    border: 0.5px;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    transition:300ms all;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btnfooter > button:hover{
+    transition:300ms all;
+    background-color: rgb(255, 149, 0);
+}
+.footmain > p{
+    background-color: #2a2a2a;
+    display: flex;
+    width: 100%;
+    height: 18vh;
+}
+.footmain2 {
+    background-color: #2a2a2a;
+    width: 100%;
+    height: 23vh;
+    padding: 25px 40px;
+    letter-spacing: 1px;
+    align-items: center;
+    display: flex;
+}
+
+.footerParagraf {
+    display: flex;
+    font-size: 20px;
+    margin: 15px 0 0 0;
+    width: 55%;
+
+    
+}
+.afooterparaf {
+    cursor: pointer;
+    transition: 0.5s all;
+    color: #016cc7;
+    
+}
+.afooterparaf:hover{
+    transition: 0.5s all;
+    color: #003d73;
+}
+
+.n2{
+    color: transparent;
+}
+.n1foot{
+    color: transparent;
+}
+.afooters{
+    color: #ffe521;
+    font-size: 16px;
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    align-items: center;
+    margin: 45px 0 0 0;
+}
+.afoot{
+    align-items: center;
+    display: flex;
+}
+
+.afooter1 {
+    margin: 0 30px 30px 30px  ;
+    transition: 0.5s all;
+    text-align: center;
+    cursor: pointer;
+}
+.afooter1:hover{
+    transition: 0.5s all;
+    color: #ff0d00;
+}
+.afooter2 {
+    margin: 0 30px 30px 30px  ;
+    transition: 0.5s all;
+    text-align: center;
+    cursor: pointer;
+}
+.afooter2:hover{
+    transition: 0.5s all;
+    color: #ff0d00;
+}
+.afooter3 {
+    margin: 0 30px 30px 30px  ;
+    transition: 0.5s all;
+    text-align: center;
+    cursor: pointer;
+}
+.afooter3:hover{
+    transition: 0.5s all;
+    color: #ff0d00;
 }
 
 
